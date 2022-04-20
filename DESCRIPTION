@@ -1,0 +1,14 @@
+Package: CorHeat
+Type: Package
+Title: Integrate The correlation analysis of omics with r and P cutoff values, and draw heatmaps with significant markers
+Version: 1.0.0
+Authors@R:person(given="Lanlan",family="Zhao",email="lanlan_z@mail.sdu.edu.cn",role = c('aut','cre'))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Computes a matrix of Spearman's rho or Pearson's r rank correlation coefficients for all possible pairs of columns of a matrix, filter based on the threshold of P and r cutoff, and output the matrix.
+    Draw clustered heatmaps with Significant markers.
+Imports: dplyr,psych,pheatmap,grDevices, RColorBrewer
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
